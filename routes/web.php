@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', "IndexController@index");
+Route::get('/', "IndexController@index")->name("index");
 
 Route::get("/{id?}", "TripController@index")->name("trip");
