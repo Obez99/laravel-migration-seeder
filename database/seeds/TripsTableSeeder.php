@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Trip;
 
 class TripsTableSeeder extends Seeder
 {
@@ -11,6 +12,5 @@ class TripsTableSeeder extends Seeder
      */
     public function run()
     {
-        //
     }
 }
