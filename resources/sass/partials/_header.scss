@@ -1,0 +1,17 @@
+header{
+  height:150px;
+  background-color: rgb(94, 223, 255);
+  box-shadow: 0 0 10px 1px gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img{
+    height: 100%;
+  }
+
+  h1{
+    color:white;
+    margin-left:50px;
+  }
+}

@@ -24,6 +24,7 @@ class TripsTableSeeder extends Seeder
             $newTrip->description = $faker->text(400);
             $newTrip->destinations = $faker->words($randomNumber, true);
 
+            //Generates random price based on number of destinations
             switch ($randomNumber) {
                 case 1:
                     $minPrice = 50;
