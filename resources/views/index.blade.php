@@ -10,7 +10,7 @@
             <div class="card-body">
               <h5 class="card-title text-capitalize">{{$trip->name}}</h5>
               <p class="card-text">{{$trip->description}}</p>
-              <a href="#" class="btn btn-primary">Più dettagli</a>
+              <a href="{{route('trip', ["id"=>$trip->id])}}" class="btn btn-primary">Più dettagli</a>
             </div>
           </div>
         </div>
